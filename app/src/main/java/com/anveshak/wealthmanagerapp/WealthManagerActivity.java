@@ -17,7 +17,7 @@ public class WealthManagerActivity extends AppCompatActivity {
         setContentView(R.layout.activity_wealth_manager);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
+        System.out.print("sfsdfsdf");
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
